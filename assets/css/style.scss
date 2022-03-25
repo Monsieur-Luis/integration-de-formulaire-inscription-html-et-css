@@ -1,0 +1,203 @@
+/*Travail sur les fomulaires*/
+/*Luis Gutierrez*/
+/*2 juin 2020*/
+
+body, html {
+	font-family: 'open-sans', sans-serif;
+
+	/*varaibles de couleur*/
+	$bleu:#0091ea;
+	$orange:#e69800;
+	/*fin varialbes de coulerus*/
+	
+	/*Style pour ligne blue superieur*/
+	div#top{
+
+	width: 100%;
+	height: 25px;
+	background: #0091ea;
+	margin-bottom:300px;
+	}
+	/*Fin style pour ligne blue superieur*/
+
+	/*wrapper pour les deux sections*/
+	.wrapper{
+
+		width: 1015px;
+		padding-bottom:820px;
+		margin: 0 auto;
+	}
+	
+	/*Fin wrapper pour les deux sections*/
+
+		/*wrapper pour centrer chaque section*/
+		div.wrapper-interieur{
+		width: 405px;
+		margin: 0 auto;
+
+		}
+		/*fin wrapper pour centrer chaque section*/
+
+		div.icon{
+			position: relative;
+			right: 40px;
+			top: 75px;
+			width: 40px;
+			height: 30px;
+			background: $orange;
+		}& i{
+			 position: relative;
+			top:5px; 
+			left: 13px;
+			color: white;
+		}
+			
+			/*style pour donner un padding interieur < chaque section*/
+			form fieldset{
+			margin-top: 45px;
+			border: none;
+			}
+			/*fin style pour donner un padding interieur < chaque section*/
+
+			/*Style  pour les deux legende*/
+			legend{
+			margin-bottom: 50px;
+			font-size: 30px;
+			padding-left: 25px;
+			}
+			/*Fin style legende*/
+
+			/*Style section identification*/
+			div#identification{
+			width: 445px;
+			margin-right: 125px;
+			background: #f5f4f4;
+			float: left;
+			}
+			/*Fin style section identification*/
+
+			/*Style section inscription*/
+			div#inscription{
+				width: 445px;
+				float: left;
+				background: #f5f4f4;
+			}
+			/*Fin style section inscription*/
+
+			/*style du carré bleu*/
+			 div.blue-box{	
+				width: 15px;
+				height: 10px;
+				background: $bleu;
+				margin-right: 5px;
+				margin-bottom: 10px;
+				float: left;
+			}
+			/*fin style carrée bleu*/
+			
+			/*style pour les balises label*/
+			label{
+				font-size: 10px;
+				float: left;
+				margin-bottom: 10px;
+			}
+			/*Fin style pour les balises label*/
+
+			/*style pour placer les balises input en dessous du carré bleu et label*/
+			input{
+				display: block;
+				clear: both;
+				margin-bottom: 30px;
+			}
+			/*Fin style pour les balises input*/
+
+			/*Style général pour les balises submit*/
+			& p input{
+				width: 100%;
+				height: 40px;
+				box-sizing: border-box;
+				background: #f5f4f4;
+				font-size: 10px;
+				border: 1px solid #d5d5d5;
+
+			} & ::placeholder{
+
+				font-size: 10px;
+				padding-left: 17px;
+				
+			}
+
+			& :focus{
+				background-color:white;
+			}
+
+			& [type="submit"]{
+				background: $bleu;
+				color: white;
+			} 
+			& [type="submit"]:hover{
+				background: #1d6694;
+			}
+			/*Fin style pour les balises submit*/
+
+/*Style section se rappeler de moi*/
+div .accepter-identification .insc{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 35px;
+	display: block;
+	float: left;
+
+}& p#p-rappeler{
+	padding-left: 10px;
+	padding-right : 101px;
+
+}& a#a-rappeler{
+
+	
+	text-decoration: none;
+}& a#a-rappeler:hover{
+	text-decoration: underline;
+}
+
+/*Fin style section se rappeler de moi*/
+
+/*Style section en bas d'incsription*/
+div .accepter-inscription .insc{
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 35px;
+	display: block;
+	float: left;
+}& p#p-accepter{
+	padding-left: 10px;
+	padding-right: 120px;
+
+}& a#a-accepter{
+	text-decoration: none;
+
+}& a#a-accepter:hover{
+	text-decoration: underline;
+}
+/*Fin style section en bas d'inscription*/
+
+
+		
+			
+
+	
+	/*Style pour ligne blue inferieur*/
+	div#bottom{
+	width: 100%;
+	height: 25px;
+	background: #0091ea;
+	clear: both;
+
+		
+	}
+	/*Fin style pour ligne blue inferieur*/
+
+	
+}// fin body
+
+

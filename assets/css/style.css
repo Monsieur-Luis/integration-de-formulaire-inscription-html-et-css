@@ -1,0 +1,167 @@
+@charset "UTF-8";
+body, html {
+  font-family: "open-sans", sans-serif;
+  /*varaibles de couleur*/
+  /*fin varialbes de coulerus*/
+  /*Style pour ligne blue superieur*/
+  /*Fin style pour ligne blue superieur*/
+  /*wrapper pour les deux sections*/
+  /*Fin wrapper pour les deux sections*/
+  /*wrapper pour centrer chaque section*/
+  /*fin wrapper pour centrer chaque section*/
+  /*style pour donner un padding interieur < chaque section*/
+  /*fin style pour donner un padding interieur < chaque section*/
+  /*Style  pour les deux legende*/
+  /*Fin style legende*/
+  /*Style section identification*/
+  /*Fin style section identification*/
+  /*Style section inscription*/
+  /*Fin style section inscription*/
+  /*style du carré bleu*/
+  /*fin style carrée bleu*/
+  /*style pour les balises label*/
+  /*Fin style pour les balises label*/
+  /*style pour placer les balises input en dessous du carré bleu et label*/
+  /*Fin style pour les balises input*/
+  /*Style général pour les balises submit*/
+  /*Fin style pour les balises submit*/
+  /*Style section se rappeler de moi*/
+  /*Fin style section se rappeler de moi*/
+  /*Style section en bas d'incsription*/
+  /*Fin style section en bas d'inscription*/
+  /*Style pour ligne blue inferieur*/
+  /*Fin style pour ligne blue inferieur*/
+}
+body div#top, html div#top {
+  width: 100%;
+  height: 25px;
+  background: #0091ea;
+  margin-bottom: 300px;
+}
+body .wrapper, html .wrapper {
+  width: 1015px;
+  padding-bottom: 820px;
+  margin: 0 auto;
+}
+body div.wrapper-interieur, html div.wrapper-interieur {
+  width: 405px;
+  margin: 0 auto;
+}
+body div.icon, html div.icon {
+  position: relative;
+  right: 40px;
+  top: 75px;
+  width: 40px;
+  height: 30px;
+  background: #e69800;
+}
+body i, html i {
+  position: relative;
+  top: 5px;
+  left: 13px;
+  color: white;
+}
+body form fieldset, html form fieldset {
+  margin-top: 45px;
+  border: none;
+}
+body legend, html legend {
+  margin-bottom: 50px;
+  font-size: 30px;
+  padding-left: 25px;
+}
+body div#identification, html div#identification {
+  width: 445px;
+  margin-right: 125px;
+  background: #f5f4f4;
+  float: left;
+}
+body div#inscription, html div#inscription {
+  width: 445px;
+  float: left;
+  background: #f5f4f4;
+}
+body div.blue-box, html div.blue-box {
+  width: 15px;
+  height: 10px;
+  background: #0091ea;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+body label, html label {
+  font-size: 10px;
+  float: left;
+  margin-bottom: 10px;
+}
+body input, html input {
+  display: block;
+  clear: both;
+  margin-bottom: 30px;
+}
+body p input, html p input {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  background: #f5f4f4;
+  font-size: 10px;
+  border: 1px solid #d5d5d5;
+}
+body ::-ms-input-placeholder, html ::-ms-input-placeholder {
+  font-size: 10px;
+  padding-left: 17px;
+}
+body ::placeholder, html ::placeholder {
+  font-size: 10px;
+  padding-left: 17px;
+}
+body :focus, html :focus {
+  background-color: white;
+}
+body [type=submit], html [type=submit] {
+  background: #0091ea;
+  color: white;
+}
+body [type=submit]:hover, html [type=submit]:hover {
+  background: #1d6694;
+}
+body div .accepter-identification .insc, html div .accepter-identification .insc {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 35px;
+  display: block;
+  float: left;
+}
+body p#p-rappeler, html p#p-rappeler {
+  padding-left: 10px;
+  padding-right: 101px;
+}
+body a#a-rappeler, html a#a-rappeler {
+  text-decoration: none;
+}
+body a#a-rappeler:hover, html a#a-rappeler:hover {
+  text-decoration: underline;
+}
+body div .accepter-inscription .insc, html div .accepter-inscription .insc {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 35px;
+  display: block;
+  float: left;
+}
+body p#p-accepter, html p#p-accepter {
+  padding-left: 10px;
+  padding-right: 120px;
+}
+body a#a-accepter, html a#a-accepter {
+  text-decoration: none;
+}
+body a#a-accepter:hover, html a#a-accepter:hover {
+  text-decoration: underline;
+}
+body div#bottom, html div#bottom {
+  width: 100%;
+  height: 25px;
+  background: #0091ea;
+  clear: both;
+}

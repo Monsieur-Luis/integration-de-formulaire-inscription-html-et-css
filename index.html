@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<!-- Travail sur les fomulaires -->
+<!-- Luis Gutierrez -->
+<!-- 2 juin 2020 -->
+
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Formulaire</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/fa/all.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+	<main>
+		<!-- div pour créer la ligne blue en haut de la page -->
+		<div id="top"></div>
+		<!-- fin du div ligne bleu -->
+
+		<!-- wrapper pour centrer les deux formulaires-->
+		<div class="wrapper">
+		
+			<!-- formulaire identification -->
+			<div id="identification">
+				<!-- wrapper pour centrer les éléments de chaque formulaire -->
+				<div class="wrapper-interieur">
+				
+
+					<!-- div pour le icon -->
+					<div class="icon">
+						<a href=""><i class="fas fa-user"></i></a>
+						
+					</div>
+					<!-- fin div pour le icon -->
+				
+				<!-- debut du formulaire -->
+				<form action="/" id="ident" method="POST">
+					
+					<fieldset>
+						<!-- entete formulaire -->
+						<legend>IDENTIFICATION</legend>
+						
+						<!-- div pour créer le carré blue à côté de chaque case -->
+						<div class="blue-box"></div>
+						<!-- fin du div pour carrée bleu -->
+						
+						<!-- section input utilisateur -->
+						<p>
+							<label for="nom-ident">NOM D'UTILISATEUR</label>
+							<input type="text" name="nom-ident" id="nom-ident" placeholder="UTILISATEUR" value="">			
+						</p>
+						<!-- fin section input utilisateur -->
+
+						<!-- div pour créer le carré blue à côté de chaque case -->	
+						<div class="blue-box"></div>
+						<!-- fin du div pour carrée bleu -->
+						
+						<!-- section input courriel -->
+						<p>
+							<label for="mail-ident">COURRIEL</label>
+							<input type="email" name="mail-ident" id="mail-ident" placeholder="UTILISATEUR@SITE.COM" value="">
+							
+						</p>
+						<!-- fin section input courriel -->
+						
+						<!-- div pour créer le carré blue à côté de chaque case -->	
+						<div class="blue-box"></div>
+						<!-- fin du div pour carrée bleu -->
+						
+						<!-- section input mot de passe -->
+						<p>
+							<label for="mdp-util">MOT DE PASSE</label>
+							<input type="password" name="mdp-util" id="mdp-util" placeholder="MOT DE PASSE" value="">
+							
+						</p>
+						<!-- fin section input mot de passe -->
+
+						<!-- bouton submit -->
+						<p>
+							<input type="submit" name="identification" id="sub-id" value="IDENTIFICATION">
+
+						</p>
+						<!-- fin bouton submit -->
+						
+						<!-- section mot de passe oublié -->
+						<div class="accepter-identification">
+							<input type="checkbox" name="rappeler" class="insc" id="rappeler">
+							<p class="insc" id="p-rappeler">Se rappeler de moi</p> 
+							<a class="insc" id="a-rappeler" href="#">Mot de passe oublié</a>
+
+						</div>
+						<!-- fin section mot de passe oublié -->
+					</fieldset>
+					<!-- fin du fieldset -->
+				</form>
+				<!-- fin du formulaire -->
+
+				</div>
+				<!-- fin wrapper pour centrer les éléments de chaque formulaire -->
+			</div>
+			<!-- fin section identification -->
+
+			<!-- section inscription -->
+			<div id="inscription">
+				<!-- wrapper pour centrer les éléments dechaque formulaire -->
+				<div class="wrapper-interieur">
+				<!-- fin wrapper pour centrer les éléments chaque formulaire -->	
+					
+					<!-- div pour le icon -->
+					<div class="icon">
+						<a href=""><i class="fas fa-user-plus"></i></a>
+					</div>
+					<!-- fin div pour le icon -->
+
+					<!-- debut du formulaire -->	
+					<form action="#" id="insc" method="POST">
+					<!-- fin du formulaire -->
+
+						<!-- debut du fieldset -->
+						<fieldset>
+							<!-- entete formulaire -->
+							<legend>INSCRIPTION</legend>
+																			
+							<!-- div pour créer le carré blue à côté de chaque case -->	
+							<div class="blue-box"></div>
+							<!-- fin du div pour carrée bleu -->
+							
+							<!-- section pour inscription utilisateur -->
+							<p>
+								<label for="nom-insc">NOM D'UTILISATEUR</label>						
+								<input type="text" name="nom-insc" id="nom-insc" placeholder="UTILISATEUR" value="">			
+							</p>
+							<!-- fin section inscription utilisateur -->
+							
+							<!-- div pour créer le carré blue à côté de chaque case -->
+							<div class="blue-box"></div>
+							<!-- fin du div pour carrée bleu -->
+							
+							<!-- section courriel pour inscription utilisateur -->
+							<p>
+								<label for="mail-insc">COURRIEL</label>
+								<input type="email" name="mail-insc" id="mail-insc" placeholder="UTILISATEUR@SITE.COM" value="">
+							</p>
+							<!-- fin section courriel inscription utilisateur -->
+							
+							<!-- div pour créer le carré blue à côté de chaque case -->
+							<div class="blue-box"></div>
+							<!-- fin du div pour carrée bleu -->
+							
+							<!-- section mot de passe pour inscription utilisateur -->
+							<p>
+								<label for="mdp-insc">MOT DE PASSE</label>
+								<input type="password" name="mdp-insc" id="mdp-insc" placeholder="MOT DE PASSE" value="">
+							</p>
+							<!-- fin section mot de passe pour inscription utilisateur -->
+							
+							<!-- div pour créer le carré blue à côté de chaque case -->
+							<div class="blue-box"></div>
+							<!-- fin du div pour carrée bleu -->
+							
+							<!-- section confirmer mot de passe pour inscription utilisateur -->
+							<p>
+								<label for="conf-mdp-insc">CONFIRMER LE MOT DE PASSE</label>
+								<input type="password" name="conf-mdp-insc" id="conf-mdp-insc" placeholder="MOT DE PASSE" value="">
+							</p>
+							<!-- fin section mot de passe pour inscription utilisateur -->
+							
+							<!-- bouton pour inscription  -->	
+							<p>	
+								<input type="submit" name="inscription" id="ins-id" value="INSCRIPTION">
+							</p>
+							<!-- fin bouton pour inscription  -->
+							
+							<!-- section pour accepter les conditions d'inscription -->
+							<div class="accepter-inscription">
+								<input type="checkbox" name="accepter" class="insc" id="accepter">
+								<p class="insc" id="p-accepter">J'accepte</p> 
+								<a id="a-accepter" href="#">les condidtions d'inscription</a>
+							</div>
+							<!-- fin section pour accepter les conditions d'inscription -->
+							
+						</fieldset>
+						<!-- fin fieldset -->
+						
+					</form>
+					<!-- fin formulaire -->
+					
+				</div>
+				<!-- fin wrapper interieur -->
+
+			</div>
+			<!-- fin section inscription -->
+
+			
+		</div>
+		<!-- fin wrapper pour entrer les deux formulaires -->
+
+		<!-- div pour créer la ligne bleu en bas de la page -->
+		<div id="bottom"></div>
+		<!-- fin du div pour la ligne bleu en bas de la page -->
+
+	</main>
+	<!-- fin du main -->
+</body>
+<!-- fin du body -->
+</html>
