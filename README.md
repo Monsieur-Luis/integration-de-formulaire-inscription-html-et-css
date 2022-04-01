@@ -1,4 +1,4 @@
-# integration-de-formulaire-inscription-html-et-css.
+# Integration-de-formulaire-inscription-html-et-css.
 
 Intégration du formulaire selon l'exemple donné ci-dessous au pixel près. 
 
